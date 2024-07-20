@@ -1,7 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
-//    id("kotlin-kapt")
+    //id("kotlin-kapt")
 }
 
 android {
@@ -57,8 +57,8 @@ dependencies {
     val room  = "2.6.0"
 
     implementation("androidx.room:room-runtime:$room")
-    implementation("androidx.room:room-ktx:$room")
-//    kapt("androidx.room.:room-compiler:$room")
+   // implementation("androidx.room:room-ktx:$room")
+    //kapt("androidx.room.:room-compiler:$room")
 
     implementation("androidx.navigation:navigation-compose:$nav_version")
     implementation("androidx.compose.ui:ui:$compose_version")
